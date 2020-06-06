@@ -2,7 +2,9 @@
 
 require __DIR__ . '/vendor/autoload.php';
 
+use App\Command\InstallFakeAppCommand;
 use Symfony\Component\Console\Application;
 
 $application = new Application();
+$application->add(new InstallFakeAppCommand());
 $application->run();
