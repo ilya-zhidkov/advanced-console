@@ -1,6 +1,7 @@
 # Advanced Console
 
 An advanced command-line application built in popular Symfony framework.
+
 ---
 
 ## Setup
@@ -24,6 +25,15 @@ An advanced command-line application built in popular Symfony framework.
     ```bash
     php app.php
     ```
+
+---
+
+### Use case
+
+- Setting up a brand new PHP **7.3** project
+- Using a popular **Symfony** framework for advancing command-line user experience
+- Generating fake data using **fzaninotto/faker**
+- Implementing command line options using the **Decorator Pattern**
 
 ---
 
