@@ -2,9 +2,9 @@
 
 require __DIR__ . '/vendor/autoload.php';
 
-use App\Command\InstallFakeAppCommand;
 use Symfony\Component\Console\Application;
+use App\Command\{InstallFakeAppCommand, PrintRandomDataCommand};
 
 $application = new Application();
-$application->add(new InstallFakeAppCommand());
+$application->addCommands([new InstallFakeAppCommand(), new PrintRandomDataCommand()]);
 $application->run();

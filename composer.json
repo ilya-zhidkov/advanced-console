@@ -5,6 +5,7 @@
         }
     },
     "require": {
-        "symfony/console": "5.0"
+        "symfony/console": "5.0",
+        "fzaninotto/faker": "1.9"
     }
 }
